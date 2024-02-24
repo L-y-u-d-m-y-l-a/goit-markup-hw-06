@@ -391,6 +391,10 @@ img {
 }
 
 @media screen and (min-width: 768px) {
+    .hero-section {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)), url(../images/people-office.tab-min.jpg);
+}
     .hero-section .container {
         padding-top: 112px;
         padding-bottom: 112px;
@@ -415,12 +419,24 @@ img {
 }
 
 @media screen and (min-width: 1158px) {
+    .hero-section {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
+    }
     .hero-section .container {
         padding-top: 188px;
         padding-bottom: 188px;
     }
     .hero-title {
         margin-bottom: 48px;
+    }
+         @media screen and (min-device-pixel-ratio: 2),
+                (min-resolution: 192dpi),
+                (min-resolution: 2dppx) {
+                    .hero-section {
+                        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                        rgba(46, 47, 66, 0.7)), url(../images/people-office.2x-min.jpg);
+                    }
     }
 }
 
